@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# OpenActiveR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+OpenActive makes it easier for people to discover activities nearby. By sharing data about all the opportunities for physical exercise, innovators can design new apps and services to help people get active. This package provides code to harvest and display OpenActive opportunity data.
+
+## Installation
+
+You can install the development version of OpenActiveR from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("howaskew/OpenActiveR")
+```
+
+## Example
+
+Start at the start with the OpenActive data catalogue:
+
+```{r example}
+library(OpenActiveR)
+catalogue_urls <- get_catalogue_urls()
+print(catalogue_urls)
+```
