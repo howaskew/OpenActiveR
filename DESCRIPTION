@@ -14,3 +14,5 @@ Config/testthat/edition: 3
 Imports: 
     httr,
     jsonlite
+URL: https://github.com/howaskew/OpenActiveR
+BugReports: https://github.com/howaskew/OpenActiveR/issues
